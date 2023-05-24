@@ -3,11 +3,13 @@
 This repository contains an implementation of [Mitigating Label Noise through Data Ambiguation](https://arxiv.org/abs/). Please cite it as follows:
 
 ```
-@article{lienen2023mitigating,
-  title={Mitigating Label Noise through Data Ambiguation},
-  author={Lienen, Julian and H{\"u}llermeier, Eyke},
-  journal={arXiv preprint arXiv:},
-  year={2023}
+@misc{lienen2023mitigating,
+      title={Mitigating Label Noise through Data Ambiguation}, 
+      author={Julian Lienen and Eyke Hüllermeier},
+      year={2023},
+      eprint={2305.13764},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```
 
@@ -18,9 +20,9 @@ To install all required packages, you need to run
 pip install -r requirements.txt
 ```
 
-The code has been tested using Python 3.9 on Ubuntu 18.* and Ubuntu 20.* systems. We trained our models on machines with Nvidia GPUs (we tested CUDA 10.1, 11.1 and 11.6). We recommend to use [Python virtual environments](https://docs.python.org/3/tutorial/venv.html) to get a clean Python environment for the execution without any dependency problems.
+The code has been tested using Python 3.9 on Ubuntu 2*.* systems. We trained our models on machines with Nvidia GPUs (we tested CUDA 10.1, 11.1 and 11.6). Furthermore, we recommend to use [Python virtual environments](https://docs.python.org/3/tutorial/venv.html) to get a clean Python environment for the execution without any dependency problems.
 
-Moreover, the `config.ini` needs to be populated with parameters to set the output directory (`BASE_PATH`), a directory for temporary artifacts (`TMP_PATH`) and an output directory for plots (`PLOT_DIR`). 
+As a required prerequisite, the `config.ini` needs to be populated with parameters to set the output directory (`BASE_PATH`), a directory for temporary artifacts (`TMP_PATH`) and an output directory for plots (`PLOT_DIR`). 
 
 ## Datasets
 
