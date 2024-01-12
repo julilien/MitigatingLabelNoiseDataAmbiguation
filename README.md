@@ -1,7 +1,7 @@
 # Mitigating Label Noise through Data Ambiguation
 
 This repository contains an implementation of [Mitigating Label Noise through Data Ambiguation](http://arxiv.org/abs/2305.13764
-). Please cite it as follows:
+) to be presented at AAAI-24. Please cite it as follows:
 
 ```
 @misc{lienen2023mitigating,
